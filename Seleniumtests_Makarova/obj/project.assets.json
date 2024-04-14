@@ -721,11 +721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danil\\RiderProjects\\Seleniuntests_Makarova\\Seleniuntests_Makarova\\Seleniuntests_Makarova.csproj",
-      "projectName": "Seleniuntests_Makarova",
-      "projectPath": "C:\\Users\\danil\\RiderProjects\\Seleniuntests_Makarova\\Seleniuntests_Makarova\\Seleniuntests_Makarova.csproj",
+      "projectUniqueName": "C:\\Users\\danil\\RiderProjects\\Seleniuntests_Makarova\\Seleniumtests_Makarova\\Seleniumtests_Makarova.csproj",
+      "projectName": "Seleniumtests_Makarova",
+      "projectPath": "C:\\Users\\danil\\RiderProjects\\Seleniuntests_Makarova\\Seleniumtests_Makarova\\Seleniumtests_Makarova.csproj",
       "packagesPath": "C:\\Users\\danil\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danil\\RiderProjects\\Seleniuntests_Makarova\\Seleniuntests_Makarova\\obj\\",
+      "outputPath": "C:\\Users\\danil\\RiderProjects\\Seleniuntests_Makarova\\Seleniumtests_Makarova\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\danil\\AppData\\Roaming\\NuGet\\NuGet.Config"

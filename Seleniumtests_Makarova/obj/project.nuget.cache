@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N9ozKi1f1Vflhyygtetqub056Tj/EBzjnaeYrfGl7+CdqlUcGbdWy7IlSVxOJHZacRN9wcQLRsNSgkRwozx9RA==",
+  "dgSpecHash": "HbsFAOqtlRwrAYRWXDeOko2xH/L+N9pvgWiSRzqhNBIq/OOkS1vb9IQi0x5StzFp+7lVyxI3D4VGghpGYlfktw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\danil\\RiderProjects\\Seleniuntests_Makarova\\Seleniuntests_Makarova\\Seleniuntests_Makarova.csproj",
+  "projectFilePath": "C:\\Users\\danil\\RiderProjects\\Seleniuntests_Makarova\\Seleniumtests_Makarova\\Seleniumtests_Makarova.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.codecoverage\\17.9.0\\microsoft.codecoverage.17.9.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.net.test.sdk\\17.9.0\\microsoft.net.test.sdk.17.9.0.nupkg.sha512",
