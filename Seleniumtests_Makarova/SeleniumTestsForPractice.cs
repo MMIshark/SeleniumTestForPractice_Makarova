@@ -2,7 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace Seleniuntests_Makarova;
+namespace Seleniumtests_Makarova;
 
 public class SeleniumTestsForPractice
 {
