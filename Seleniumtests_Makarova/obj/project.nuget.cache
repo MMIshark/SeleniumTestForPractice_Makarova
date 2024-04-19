@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "HbsFAOqtlRwrAYRWXDeOko2xH/L+N9pvgWiSRzqhNBIq/OOkS1vb9IQi0x5StzFp+7lVyxI3D4VGghpGYlfktw==",
+  "dgSpecHash": "gugulY4SKLBq1oUfr8yWyYLCU6+kt8mkb4qbFvvj/MihhCH4vMSRva+kscma2EF6hssZKsV75+XK20GruSdfkw==",
   "success": true,
   "projectFilePath": "C:\\Users\\danil\\RiderProjects\\Seleniuntests_Makarova\\Seleniumtests_Makarova\\Seleniumtests_Makarova.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\danil\\.nuget\\packages\\dotnetseleniumextras.waithelpers\\3.11.0\\dotnetseleniumextras.waithelpers.3.11.0.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\fluentassertions\\7.0.0-alpha.3\\fluentassertions.7.0.0-alpha.3.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.codecoverage\\17.9.0\\microsoft.codecoverage.17.9.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.net.test.sdk\\17.9.0\\microsoft.net.test.sdk.17.9.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.9.0\\microsoft.testplatform.objectmodel.17.9.0.nupkg.sha512",
@@ -11,7 +13,9 @@
     "C:\\Users\\danil\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\nunit\\4.1.0\\nunit.4.1.0.nupkg.sha512",
     "C:\\Users\\danil\\.nuget\\packages\\selenium.webdriver\\4.19.0\\selenium.webdriver.4.19.0.nupkg.sha512",
-    "C:\\Users\\danil\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+    "C:\\Users\\danil\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
   ],
   "logs": []
 }
