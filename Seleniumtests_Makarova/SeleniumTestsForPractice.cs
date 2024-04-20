@@ -25,18 +25,20 @@ public class SeleniumTestsForPractice
     [Test]
     public void PassAuthorization()
     {
-        var news = driver.FindElement(By.CssSelector("[data-tid='Title']"));
         var currentUrl = driver.Url;
-        
         currentUrl.Should().Be("https://staff-testing.testkontur.ru/news");
-        news.Should().NotBeNull();
     }
 
     [Test]
     public void OpenCommunitiesOnBigScreen()
     {
         GoToCommunities();
-        IsAtComunities();
+        
+        var communitiesTitle = driver.FindElement(By.CssSelector("[data-tid='Title']"));
+        var currentUrl = driver.Url;
+        
+        currentUrl.Should().Be("https://staff-testing.testkontur.ru/communities");
+        communitiesTitle.Should().NotBeNull();
     }
 
     [Test]
@@ -48,7 +50,12 @@ public class SeleniumTestsForPractice
         sidebarMenu.Click();
         
         GoToCommunities();
-        IsAtComunities();
+        
+        var communitiesTitle = driver.FindElement(By.CssSelector("[data-tid='Title']"));
+        var currentUrl = driver.Url;
+        
+        currentUrl.Should().Be("https://staff-testing.testkontur.ru/communities");
+        communitiesTitle.Should().NotBeNull();
     }
 
     [Test]
@@ -87,6 +94,7 @@ public class SeleniumTestsForPractice
 
         var editModeOn = driver.FindElement(By.CssSelector("[data-tid='UploadFiles']"));
         var currentUrl = driver.Url;
+        
         editModeOn.Should().NotBeNull();
         currentUrl.Should().Match("https://staff-testing.testkontur.ru/profile/settings/edit");
         //Поскольку тестирую не со своего профиля - ничего не редактирую, просто открываю режим редактирования.
@@ -104,20 +112,15 @@ public class SeleniumTestsForPractice
         
         var enter = driver.FindElement(By.Name("button"));
         enter.Click();
+        
+        var news = driver.FindElement(By.CssSelector("[data-tid='Title']"));
+        news.Should().NotBeNull();
     }
 
     public void GoToCommunities()
     {
         var communities = driver.FindElements(By.CssSelector("[data-tid='Community']")).First(element => element.Displayed);
         communities.Click();
-    }
-
-    public void IsAtComunities()
-    {
-        var communitiesTitle = driver.FindElement(By.CssSelector("[data-tid='Title']"));
-        var currentUrl = driver.Url;
-        currentUrl.Should().Be("https://staff-testing.testkontur.ru/communities");
-        communitiesTitle.Should().NotBeNull();
     }
     
     [TearDown]
