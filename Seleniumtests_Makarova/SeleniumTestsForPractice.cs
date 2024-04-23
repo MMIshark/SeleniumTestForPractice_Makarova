@@ -3,6 +3,8 @@ using FluentAssertions;
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
+using SeleniumExtras.WaitHelpers;
 
 namespace Seleniumtests_Makarova;
 
@@ -102,6 +104,7 @@ public class SeleniumTestsForPractice
     
     public void Authorization()
     {
+        WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(2));
         driver.Navigate().GoToUrl("https://staff-testing.testkontur.ru");
         
         var login = driver.FindElement(By.Id("Username"));
@@ -112,9 +115,8 @@ public class SeleniumTestsForPractice
         
         var enter = driver.FindElement(By.Name("button"));
         enter.Click();
-        
-        var news = driver.FindElement(By.CssSelector("[data-tid='Title']"));
-        news.Should().NotBeNull();
+
+        wait.Until(ExpectedConditions.ElementIsVisible(By.CssSelector("[data-tid='Title']")));
     }
 
     public void GoToCommunities()
